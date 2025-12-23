@@ -1,9 +1,8 @@
 import { Global, Module } from '@nestjs/common';
 import Keyv from 'keyv';
 import KeyvRedis from '@keyv/redis';
+import { KEYV_INSTANCE } from './redis.constants';
 import { RedisService } from './redis.service';
-
-export const KEYV_INSTANCE = 'KEYV_INSTANCE';
 
 @Global()
 @Module({

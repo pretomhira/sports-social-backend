@@ -1,0 +1,1 @@
+export const KEYV_INSTANCE = 'KEYV_INSTANCE';

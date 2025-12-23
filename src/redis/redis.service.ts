@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import Keyv from 'keyv';
-import { KEYV_INSTANCE } from './redis.module';
+import { KEYV_INSTANCE } from './redis.constants';
 
 @Injectable()
 export class RedisService {
